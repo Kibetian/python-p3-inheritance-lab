@@ -7,5 +7,5 @@ class Student(User):
         super().__init__(first_name, last_name)
         self.knowledge = []
 
-    def learn(self, topic):
-        self.knowledge.append(topic)
+    def learn(self, knowledge_string):
+        self.knowledge.append(knowledge_string)
